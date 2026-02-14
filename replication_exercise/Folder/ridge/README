@@ -1,0 +1,8 @@
+Replication exercise Extenstion: Implementation of Ridge Regression using Scikit-learn
+and calculate marginal effects for each variable
+
+1. pip install necessary packages in your Python interpreter (pandas, numpy, scikit)
+2. Set the directories of input and output so the program finds the data.
+3. Run the program and check the output at the end to see the 10 largest and the 10 smallest marginal effects of each variable
+   according to the ridge regression, which represent the words most predictive for female and male posts respecitvely.
+
