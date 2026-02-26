@@ -1,0 +1,12 @@
+Idea - Each state has a Tribunal de Contas Estadual (state audit court) that contains
+aggregate information on how much each state is spending on each bill passed
+
+Somehow filter such information to account to laws that were passed in recent years.
+See if such laws are conditional cash transfers, which might be seen as ways to buy
+votes
+
+Descriptive data that might show that more expensive\spending bills are passed in
+election years
+
+Model a regression(?) logit(?) to show that increase in conditional cash transfers are
+correlated to greater chances of reelection in the next period

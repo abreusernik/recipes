@@ -1,0 +1,21 @@
+São Paulo (likely the one to have more data)
+
+Lista de municipios
+
+https://www.undime-sp.org.br/municipiospaulistas/
+
+Tribunal de Contas do Estado de São Paulo
+
+https://transparencia.tce.sp.gov.br
+
+Data from a single municipality
+
+https://transparencia.tce.sp.gov.br/municipio/adamantina/2014
+
+There is an API for collecting data, presented in the following
+
+https://transparencia.tce.sp.gov.br/apis
+
+This was made possble because of this law
+
+https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm
