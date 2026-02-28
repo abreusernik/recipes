@@ -1,0 +1,23 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage{harvard}
+
+\author{Lucas Sernik}
+\date{\today}
+\title{First Draft: Impact of Conditional Cash Transfers Policies on Voting}
+
+\begin{document}
+\maketitle
+
+\quad My interest in this type of question comes from what I have heard my whole life in Brazil: a famous conditional cash transfer program (CCTP) in Brazil, called Bolsa Família (``Family Grant'', BF), is said to shift/get more votes to a particular political party in Brazil, the Partido dos Trabalhadores (``Worker's Party, PT). The correlation between the regions that vote for PT both for governor and president and widespread adoption of BF among its population is evident. This made me interested in the following question: Are CCTPs used by politicians to get more votes in their next election, essentialy as a way to sway voters to their political base?
+
+\quad First, I started to investigate what is the existing literature in the topic for BF. Existing literature has contradicting effects of such policies in converting votes for the incumbent in subsequent elections \cite{marques:2009}\cite{bohn:2011}\cite{correa:2016}. Some comprehensive studies made some calculations with data available to the public, crossing number of families in a given municipality or state that received BF, the amount that was given to them throught the benefit and the voting distribution at the given place, finding that ``It was, in itself, responsible by 45\% of the total votes in Lula''. \cite{marques:2009}. Other studies criticize such approach, pointing that it suffers from ecological fallacy. They propose a comprehensive survey for voters and conclude that the programs did not shift voters \cite{bohn:2011}. Some propose anti-incumbent effects on the program \cite{correa:2016}. I am planning to expand my literature review to other programs in other countries, if applicable.
+
+\quad There is also some theoretical foundation to this claim. Given the notion of rent-seeking behavior \cite{krueger:1974}, a theoretical paper concludes that the purpose of redistribution that some policies are grounded in can ``perpetuate inefficient policies'' that somehow benefit politicians in other ways.
+
+\quad My goal (maybe unfeasible given the short amount of time) with the project is to collect data from all 5.569 municipalities in Brazil, 26 states and 1 federal district, with the purpose of building some kind of (logit?) regression that assesses the probability of a mayor/governor being elected given that some number of bills that amounts to some total budget was passed during their first period, given some set of controls (standard of living indexes, income, etc.). This data collection is possible for the state of São Paulo, at least, which will be my starting point. From the budgeting document with all the money that was spent through laws, will need to filter out systematically those associated with CCTPs through some algorithm yet to be determined. Also, wanted to discover if executive leaders who get reelected change their pattern on signing spending bills in their first term compared to their second term (In Brazil, a politician can only be reelected once consecutively for an executive position).
+
+\bibliographystyle{econometrica}
+\bibliography{refs}
+
+\end{document}
